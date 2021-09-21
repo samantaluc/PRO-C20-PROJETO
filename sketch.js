@@ -20,7 +20,7 @@ function setup(){
     plane = Bodies.rectangle(600,580,1200,2,plane_options);
     World.add(world,plane);
   
-    //criados multiplos corpos de blocos 
+    //criados múltiplos corpos de blocos 
     var block1_options = {
       restitution:0.5,
       friction:0.02,
