@@ -42,11 +42,11 @@ function setup(){
     block1 = Bodies.circle(220,10,10,block1_options);
     World.add(world,block1);
     
-    block2 = Bodies.rectangle(110,50,10,10,block2_options);
-    World.add(world,block2);
+    block2 = Bodies.rectangle(110,50,10,10,xxxxxxxxxxx);
+    World.add(xxxxxxxx);
     
-    block3 = Bodies.rectangle(350,50,10,10,block3_options);
-    World.add(world,block3);
+    block3 = Bodies.rectangle(350,50,10,10,xxxxxxxxxxxx);
+    World.add(xxxxxxxx);
     
     
     //estilizando os corpos aqui
@@ -66,8 +66,8 @@ function draw(){
 
   //criadas formas para todas as partículas
   ellipse(block1.position.x,block1.position.y,30);
-  rect(block2.position.x,block2.position.y,50,50)
-  rect(block3.position.x,block3.position.y,100,50)
+  rect(xxxxxxxx.position.x,xxxxxxxx.position.y,50,50)
+  rect(xxxxxxxx.position.x,xxxxxxxx.position.y,100,50)
 
   
 }
